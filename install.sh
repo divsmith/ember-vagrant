@@ -14,8 +14,11 @@ config="
 
 echo "$config" > /home/vagrant/.gitconfig
 
+# Install git
+sudo apt-get install git
+
 # Install node.js and npm
-sudo apt-get install nodejs -y
+sudo apt-get install nodejs-legacy -y
 sudo apt-get install npm -y
 
 # Install bower
