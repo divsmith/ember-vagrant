@@ -15,7 +15,7 @@ config="
 echo "$config" > /home/vagrant/.gitconfig
 
 # Install git
-sudo apt-get install git
+sudo apt-get install git -y
 
 # Install node.js and npm
 sudo apt-get install nodejs-legacy -y
